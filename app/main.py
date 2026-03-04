@@ -7,10 +7,8 @@ from app.routes import items
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Kalmy Items API",
+    title="Items API",
     description="""
-## Items API
-
 REST API for item management. Allows you to **create**, **read**, **update** and **delete** items.
 
 ### Features
